@@ -9,23 +9,7 @@ import uuid from 'uuid';
 
 class App extends Component {
   state = {
-    todos: [
-      {
-        id: uuid.v4(),
-        title: 'Handle',
-        completed: false
-      },
-      {
-        id: uuid.v4(),
-        title: 'Trene',
-        completed: false
-      },
-      {
-        id: uuid.v4(),
-        title: 'Rydde',
-        completed: false
-      }
-    ]
+    todos: []
   }
   //Toggle complete
   markComplete = (id) => {
